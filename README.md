@@ -1,4 +1,5 @@
 # ERPSystem_Product-Management
+Description : A simplified interface for an ERP(Enterprise Resource Planning) system, designed to manage products and customer orders.
 
 ## Download & Extract Project Zip File
 1. Navigate to the GitHub Repository by opening the web browser and pasting the given link.
