@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
-import '../styles/OrderCalendar.css'; // Apply custom styles for the calendar
+import '../styles/OrderCalendar.css'; 
 
 function OrderCalendar() {
     const [orders, setOrders] = useState([]);
@@ -18,7 +18,7 @@ function OrderCalendar() {
             { id: 8, customer: 'Pinto Walter', date: new Date('2024-03-09'), shipDate: new Date('2024-03-20'), productname:'Mens Cotton Jacket', category:'Clothing', status: 'Pending' },
             { id: 9, customer: 'Periwinkle Doe', date: new Date('2024-03-10'), shipDate: new Date('2024-03-22'), productname:"Women's Gold & Silver Bracelet", category:'Accessories', status: 'Pending' },
             { id: 10, customer: 'Jordan Dsouza', date: new Date('2024-03-20'), shipDate: new Date('2024-03-28'), productname:'Laptop Backpack', category:'Bags', status: 'Pending' },
-            // Add more mock data as needed
+    
         ];
         setOrders(mockOrders);
     }, []);
