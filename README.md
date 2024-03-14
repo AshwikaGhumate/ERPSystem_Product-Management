@@ -28,3 +28,18 @@ Description : A simplified interface for an ERP(Enterprise Resource Planning) sy
    - Manage Orders button will redirect to Orders page wherein there are various options for managing customers orders.
    - Navigation links to navigate to Products, Orders and Calendar page.
 ![dashboard](https://github.com/AshwikaGhumate/ERPSystem_Product-Management/assets/78784647/dafe852e-9380-4a98-bcc7-7304b7df0990)
+
+3. Products Page
+   - Table displaying product properties such as product name, category, price, stock quantity, image for each of the products.
+   - Add Product button to add a new product in the table.
+   - Edit button to edit product properties.
+   - Delete button to delete the product from the list of products.
+![ProductPage](https://github.com/AshwikaGhumate/ERPSystem_Product-Management/assets/78784647/f75f7ed0-9dfa-4299-a182-c9f9ce0a258a)
+
+4. Orders Page
+   - Table displaying customer's order details i.e order ID, customer name, order date, delivery date, product name, category along with the delivery status.
+   - View Details displaying customer's order details
+   - Mark as completed button to mark the order as completed after delivering the product to the customer.
+   - Delete button to delete the customer orders from the list after successfully delivering the product to the end user.
+
+6. Orders Calendar
