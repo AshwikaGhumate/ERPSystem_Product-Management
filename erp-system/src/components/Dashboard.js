@@ -4,17 +4,14 @@ import { Link } from 'react-router-dom';
 import '../styles/Dashboard.css';
 
 function Dashboard({orders, products}) {
-  //Static data for metrics
   const productCount = products.length;
   const totalOrders=orders.length;
  
 
   return (
-    <div className="dashboard"> {/* Apply the 'dashboard' class */}
-      {/* <h2>Dashboard </h2> */}
+    <div className="dashboard"> 
       <div className="background-overlay"></div>
-      <div className="metrics"> {/* Apply the 'metrics' class */}
-        {/* <h3 style={{color:'#61d7ce', textAlign:'center'}}>Key Metrics:</h3> */}
+      <div className="metrics"> 
         <br></br>
         <table className="dashboard-table">
           <thead>
@@ -35,7 +32,7 @@ function Dashboard({orders, products}) {
           </tbody>
         </table>
       </div>
-      <div className="manage-links"> {/* Apply the 'manage-links' class */}
+      <div className="manage-links"> 
         <h3>Manage Your Business:</h3>
         <Link to="/products"  >
           <button>Manage Products</button>
