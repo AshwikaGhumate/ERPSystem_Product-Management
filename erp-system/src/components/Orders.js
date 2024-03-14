@@ -18,13 +18,11 @@ function Orders({ orders: initialOrders, updateOrders }) {
     { id: 8, customerName: 'Pinto Walter', orderDate: '09-03-2024', shipDate: '20-03-2024', productname:'Mens Cotton Jacket', category:'Clothing', status: 'Pending' },
     { id: 9, customerName: 'Periwinkle Doe', orderDate: '10-03-2024', shipDate: '22-03-2024', productname:"Women's Gold & Silver Bracelet", category:'Accessories', status: 'Pending' },
     { id: 10, customerName: 'Jordan Dsouza', orderDate: '20-03-2024', shipDate: '28-03-2024', productname:'Laptop Backpack', category:'Bags', status: 'Pending' },
-
-    // Add more orders as needed
   ]);
 
-  // const [selectedOrder, setSelectedOrder] = useState(null);
+  
   const [selectedOrder, setSelectedOrder] = React.useState(null);
-  // const [updatedStatus, setUpdatedStatus] = useState('');
+  
 
   
 
@@ -96,7 +94,7 @@ function Orders({ orders: initialOrders, updateOrders }) {
         </tbody>
       </table>
       
-      {/* <Dashboard totalOrders={totalOrders} /> */}
+      
 
       {selectedOrder &&  Object.keys(selectedOrder).length > 0 &&(
         <div>
