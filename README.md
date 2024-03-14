@@ -17,3 +17,8 @@ Description : A simplified interface for an ERP(Enterprise Resource Planning) sy
 ## Usage
 1. Start the development Server
    - npm start (Open your web browser and navigate to 'http://localhost:3000' to view the app
+
+
+
+Application Screenshot:
+![dashboard](https://github.com/AshwikaGhumate/ERPSystem_Product-Management/assets/78784647/dafe852e-9380-4a98-bcc7-7304b7df0990)
