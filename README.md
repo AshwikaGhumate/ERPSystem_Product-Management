@@ -41,5 +41,6 @@ Description : A simplified interface for an ERP(Enterprise Resource Planning) sy
    - View Details displaying customer's order details
    - Mark as completed button to mark the order as completed after delivering the product to the customer.
    - Delete button to delete the customer orders from the list after successfully delivering the product to the end user.
+![image](https://github.com/AshwikaGhumate/ERPSystem_Product-Management/assets/78784647/160bd5bb-98c9-43d5-af6c-ef067e20e37d)
 
 6. Orders Calendar
