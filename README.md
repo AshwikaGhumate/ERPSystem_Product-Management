@@ -44,12 +44,12 @@ Description : A simplified interface for an ERP(Enterprise Resource Planning) sy
    - Delete button to delete the customer orders from the list after successfully delivering the product to the end user.
 ![image](https://github.com/AshwikaGhumate/ERPSystem_Product-Management/assets/78784647/160bd5bb-98c9-43d5-af6c-ef067e20e37d)
 
-
-## Products Mock Data
-gist.github.com/nefejames/bbeda8f257d7fa94b3e863926e730875
-
 4. Orders Calendar
    - Calendar displaying the orders delivered and the orders which are pending.
    - Date highlighted with green color depicts the customer orders been successfully delivered.
    - Date highlighted with red color depicts the pending customer orders to be delivered.
 ![Orders Calendar](https://github.com/AshwikaGhumate/ERPSystem_Product-Management/assets/78784647/b59ab65a-290b-445f-bf01-e558ae85dc98)
+
+
+## Products Mock Data
+gist.github.com/nefejames/bbeda8f257d7fa94b3e863926e730875
