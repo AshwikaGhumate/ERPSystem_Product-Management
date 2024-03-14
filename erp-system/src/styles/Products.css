@@ -1,0 +1,146 @@
+/* ProductsManagement.css */
+
+.products-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .products-table th,
+  .products-table td {
+    padding: 8px;
+    border: 1px solid #61d7ce; /* Add border around each cell */
+    text-align:center;
+  }
+  
+  .products-table th {
+    background-color: #61d7ce;
+  }
+  
+  .products-table img {
+    max-width: 100px;
+    max-height: 100px;
+  }
+  
+  .products-table button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    background-color: #61d7ce;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .products-table button:hover {
+    background-color: black;
+  }
+  
+  /* products.css */
+
+.add-product-button {
+  display: block;
+  width: 100%;
+  max-width: 200px; /* Adjust the maximum width as needed */
+  margin: 10px auto; /* Center the button horizontally */
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #61d7ce; /* Change the background color as needed */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-product-button:hover {
+  background-color: black; /* Change the background color on hover */
+  margin-top:5px;
+}
+
+.productname {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 50px;
+  text-align: center;
+}
+
+.product-page{
+  background-color: white;
+}
+
+/* styles.css */
+
+table {
+  width: 100%;
+  border-collapse: collapse; /* Collapse table borders */
+}
+
+th, td {
+  padding: 6px; /* Add padding to table cells */
+  border-bottom: 1px solid #ddd; /* Add bottom border to table cells */
+}
+
+tr {
+  height: 120px; /* Set a fixed height for each row */
+  background-color: white;
+}
+
+/* Products.css */
+
+/* Modal styles */
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black overlay */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  padding: 20px;
+  border-radius: 8px;
+  height: 350px;
+  width: 400px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.action-button{
+  padding:30px;
+  margin:20px;
+}
+
+/* Products.css */
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay > * {
+  z-index: 1; /* Ensure the form is above other content */
+}
