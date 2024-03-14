@@ -1,11 +1,9 @@
-// Products.js
 import React from 'react';
 import { useState } from 'react';
 import ProductForm from './ProductForm.js';
 import '../styles/Products.css';
 
 function Products({products:initialOrders, updateProductOrders}) {
-    // Mock data for products
   const [products, setProducts] = useState([
     { id: 1, name: 'Casual T-Shirt for Men', category: 'Clothing', price: 400, stockQuantity: 10, image: 'https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg' },
     { id: 2, name: 'Mens Cotton Jacket', category: 'Clothing', price: 700, stockQuantity: 20, image: 'https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg' },
@@ -15,7 +13,7 @@ function Products({products:initialOrders, updateProductOrders}) {
     { id: 6, name: 'White Gold Plated Ring', category: 'Accessories', price: 1500, stockQuantity: 15, image: 'https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg' },
     { id: 7, name: 'Gold-plated Earrings', category: 'Accessories', price: 2000, stockQuantity: 25, image: 'https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg' },
     {id:8, name:'Laptop Backpack', category:'Bags', price:800, stockQuantity:5, image:'https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg'}
-    // Add more mock data as needed
+   
   ]);
 
 
@@ -31,17 +29,17 @@ function Products({products:initialOrders, updateProductOrders}) {
 
   const handleSubmitEdit = (editedProduct) => {
     setProducts(products.map(p => (p.id === editedProduct.id ? editedProduct : p)));
-    setEditProduct(null); // Close edit form after editing
+    setEditProduct(null); 
   };
 
   const handleAddProduct = (newProduct) => {
     setProducts([...products, newProduct]);
-    setShowAddForm(false); // Close add form after adding
+    setShowAddForm(false); 
   };
 
 
 
-  // Function to handle product deletion
+  
   const handleDeleteProduct = (productId) => {
     const updatedProducts = products.filter(product => product.id !== productId);
     setProducts(updatedProducts);
@@ -88,7 +86,7 @@ function Products({products:initialOrders, updateProductOrders}) {
         </tbody>
       </table>
       
-      {/* Render edit form if editProductId is set */}
+     
       {editProduct && (
         <div className='overlay'>
         <ProductForm
@@ -99,20 +97,14 @@ function Products({products:initialOrders, updateProductOrders}) {
         </div>
         
       )}
-      {/* {showAddForm && (
-        <ProductForm
-          onSubmit={handleAddProduct}
-          onCancel={() => setShowAddForm(false)}
-        />
-      )} */}
+      
       {showAddForm && (
                 <div className="modal">
                     <div className="modal-content">
                         <span className="close" onClick={() => setShowAddForm(false)}>&times;</span>
-                        {/* <ProductForm onSubmit={handleAddProduct} /> */}
                         <ProductForm
                             onSubmit={handleAddProduct}
-                            onCancel={() => setShowAddForm(false)} // Ensure onCancel is passed
+                            onCancel={() => setShowAddForm(false)} 
                         />
                     </div>
                 </div>
