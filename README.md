@@ -1,6 +1,7 @@
 # ERPSystem_Product-Management
 Description : A simplified interface for an ERP(Enterprise Resource Planning) system, designed to manage products and customer orders.
 
+
 ## Download & Extract Project Zip File
 1. Navigate to the GitHub Repository by opening the web browser and pasting the given link.
 2. Click on the "Code" Button on the repository page and select "Download ZIP".
@@ -8,10 +9,10 @@ Description : A simplified interface for an ERP(Enterprise Resource Planning) sy
 
 ## Installation
 1. Install Node.js 
-1. Open the project in Visual Studio Code or any Editor of your choice.
-2. Open the terminal
-3. Navigate to the project directory "erp-system"
-4. Intall dependencies using npm command
+2. Open the project in Visual Studio Code or any Editor of your choice.
+3. Open the terminal
+4. Navigate to the project directory "erp-system"
+5. Intall dependencies using npm command
    - npm install (will automatically install all the dependencies from pacakage.json file)
 
 ## Usage
@@ -29,21 +30,25 @@ Description : A simplified interface for an ERP(Enterprise Resource Planning) sy
    - Navigation links to navigate to Products, Orders and Calendar page.
 ![dashboard](https://github.com/AshwikaGhumate/ERPSystem_Product-Management/assets/78784647/dafe852e-9380-4a98-bcc7-7304b7df0990)
 
-3. Products Page
+2. Products Page
    - Table displaying product properties such as product name, category, price, stock quantity, image for each of the products.
    - Add Product button to add a new product in the table.
    - Edit button to edit product properties.
    - Delete button to delete the product from the list of products.
 ![ProductPage](https://github.com/AshwikaGhumate/ERPSystem_Product-Management/assets/78784647/f75f7ed0-9dfa-4299-a182-c9f9ce0a258a)
 
-4. Orders Page
+3. Orders Page
    - Table displaying customer's order details i.e order ID, customer name, order date, delivery date, product name, category along with the delivery status.
    - View Details displaying customer's order details
    - Mark as completed button to mark the order as completed after delivering the product to the customer.
    - Delete button to delete the customer orders from the list after successfully delivering the product to the end user.
 ![image](https://github.com/AshwikaGhumate/ERPSystem_Product-Management/assets/78784647/160bd5bb-98c9-43d5-af6c-ef067e20e37d)
 
-6. Orders Calendar
+
+## Products Mock Data
+gist.github.com/nefejames/bbeda8f257d7fa94b3e863926e730875
+
+4. Orders Calendar
    - Calendar displaying the orders delivered and the orders which are pending.
    - Date highlighted with green color depicts the customer orders been successfully delivered.
    - Date highlighted with red color depicts the pending customer orders to be delivered.
