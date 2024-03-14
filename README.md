@@ -20,5 +20,11 @@ Description : A simplified interface for an ERP(Enterprise Resource Planning) sy
 
 
 
-Application Screenshot:
+## Application Screenshot:
+
+1. Dashboard
+   - Table displaying the total number of products and the total number of orders.
+   - Manage Products button will redirect to Products page wherein there are various options for managing the product.
+   - Manage Orders button will redirect to Orders page wherein there are various options for managing customers orders.
+   - Navigation links to navigate to Products, Orders and Calendar page.
 ![dashboard](https://github.com/AshwikaGhumate/ERPSystem_Product-Management/assets/78784647/dafe852e-9380-4a98-bcc7-7304b7df0990)
