@@ -1,20 +1,20 @@
 /* OrderCalendar.css */
 
-/* Calendar container */
+
 .order-calendar {
-    max-width: 800px; /* Set maximum width for the calendar */
-    margin: 0 auto; /* Center the calendar horizontally */
+    max-width: 800px; 
+    margin: 0 auto; 
     padding: 20px;
     box-sizing: border-box;
 }
 
-/* Calendar tile */
+
 .react-calendar {
     width: 100%;
     max-width: 100%;
 }
 
-/* Style for completed orders */
+
 .completed-order {
     background-color: lightgreen;
     padding: 5px;
@@ -22,7 +22,7 @@
     border-radius: 3px;
 }
 
-/* Style for pending orders */
+
 .pending-order {
     background-color: lightcoral;
     padding: 5px;
@@ -30,17 +30,17 @@
     border-radius: 3px;
 }
 
-/* Style for the order details container */
+
 .order-details {
     margin-top: 20px;
 }
 
-/* Style for the order detail item */
+
 .order-detail-item {
     margin-bottom: 10px;
 }
 
-/* Style for the order date */
+
 .order-date {
     font-weight: bold;
 }
