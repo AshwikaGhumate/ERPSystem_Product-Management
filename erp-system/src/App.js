@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Link, Routes, Route } from 'react-router-dom'; // Corrected import
+import { BrowserRouter as Router, Link, Routes, Route } from 'react-router-dom'; 
 
 import Dashboard from './components/Dashboard';
 import Products from './components/Products';
@@ -20,8 +20,6 @@ function App() {
     { id: 8, customerName: 'Pinto Walter', orderDate: '09-03-2024', shipDate: '20-03-2024', productname:'Mens Cotton Jacket', category:'Clothing', status: 'Pending' },
     { id: 9, customerName: 'Periwinkle Doe', orderDate: '10-03-2024', shipDate: '22-03-2024', productname:"Women's Gold & Silver Bracelet", category:'Accessories', status: 'Pending' },
     { id: 10, customerName: 'Jordan Dsouza', orderDate: '20-03-2024', shipDate: '28-03-2024', productname:'Laptop Backpack', category:'Bags', status: 'Pending' },
-
-    // Add more orders as needed
   ]);
 
   const[products, setProducts]=useState([
@@ -33,7 +31,6 @@ function App() {
     { id: 6, name: 'White Gold Plated Ring', category: 'Accessories', price: 1500, stockQuantity: 15, image: 'https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg' },
     { id: 7, name: 'Gold-plated Earrings', category: 'Accessories', price: 2000, stockQuantity: 25, image: 'https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg' },
     {id:8, name:'Laptop Backpack', category:'Bags', price:800, stockQuantity:5, image:'https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg'}
-    // Add more mock data as needed
   ]);
 
   const updateOrders = (updatedOrders) => {
@@ -45,7 +42,7 @@ function App() {
   }
 
 
-  // const totalOrders = orders.length;
+
 
   return (
     <Router>
