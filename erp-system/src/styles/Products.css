@@ -8,7 +8,7 @@
   .products-table th,
   .products-table td {
     padding: 8px;
-    border: 1px solid #61d7ce; /* Add border around each cell */
+    border: 1px solid #61d7ce;
     text-align:center;
   }
   
@@ -39,20 +39,20 @@
 .add-product-button {
   display: block;
   width: 100%;
-  max-width: 200px; /* Adjust the maximum width as needed */
-  margin: 10px auto; /* Center the button horizontally */
+  max-width: 200px; 
+  margin: 10px auto; 
   padding: 10px 20px;
   font-size: 16px;
   font-weight: bold;
   color: white;
-  background-color: #61d7ce; /* Change the background color as needed */
+  background-color: #61d7ce; 
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
 .add-product-button:hover {
-  background-color: black; /* Change the background color on hover */
+  background-color: black; 
   margin-top:5px;
 }
 
@@ -72,22 +72,20 @@
 
 table {
   width: 100%;
-  border-collapse: collapse; /* Collapse table borders */
+  border-collapse: collapse; 
 }
 
 th, td {
-  padding: 6px; /* Add padding to table cells */
-  border-bottom: 1px solid #ddd; /* Add bottom border to table cells */
+  padding: 6px; 
+  border-bottom: 1px solid #ddd; 
 }
 
 tr {
-  height: 120px; /* Set a fixed height for each row */
+  height: 120px; 
   background-color: white;
 }
 
-/* Products.css */
 
-/* Modal styles */
 .modal {
   display: flex;
   justify-content: center;
@@ -97,7 +95,7 @@ tr {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black overlay */
+  background-color: rgba(0, 0, 0, 0.5); 
 }
 
 .modal-content {
@@ -127,7 +125,6 @@ tr {
   margin:20px;
 }
 
-/* Products.css */
 
 .overlay {
   position: absolute;
@@ -135,12 +132,12 @@ tr {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  background-color: rgba(0, 0, 0, 0.5); 
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .overlay > * {
-  z-index: 1; /* Ensure the form is above other content */
+  z-index: 1; 
 }
